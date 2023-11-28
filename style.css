@@ -34,7 +34,7 @@ body {
 }
 #abt p{
     margin: 0 2vw; 
-    text-align-last:center;
+    text-align:justify
     text-transform: capitalize;
 }
 button {
