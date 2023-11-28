@@ -18,12 +18,18 @@ body {
     height: auto;
     border: 1px solid whitesmoke;
     border-radius: 30px;
+    @media  only screen and (max-width:767px)
+    {
+        margin-left:1.5% ;
+        margin-right:2% ;
+        width: 105vw;
+        font-size: 12px;
+    }
 }
 #abt h1 
 {
     text-align: center;
     justify-content: center;
-    font-style: italic;
     font-weight: bold;
 }
 #abt p{
